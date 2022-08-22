@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject projectilePrefab;
     public float horizontalInput;
     public float speed = 10.0f;
     //Boundary variable
